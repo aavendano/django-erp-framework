@@ -1,0 +1,26 @@
+# Django ERP Framework Demo Requirements
+# Python 3.8+ required
+
+# Django
+Django>=3.2,<5.0
+
+# ERP Framework (install from local path or PyPI)
+# For local development, use:
+-e /home/alejandro/Documents/django-erp/django-erp-framework
+# For PyPI:
+# django-erp-framework>=1.5.2
+
+# Third-party dependencies required by ERP Framework
+# Note: The PyPI package is django-crequest, but Django app name is 'crequest'
+django-crequest>=2018.5.11
+django-crispy-forms>=1.14.0
+crispy-bootstrap5>=2024.1
+django-reversion>=5.0.0
+django-jazzmin>=2.6.0
+django-slick-reporting>=0.5.0
+
+# Database (SQLite is built-in, but PostgreSQL is recommended for production)
+# psycopg2-binary>=2.9.0  # Uncomment if using PostgreSQL
+
+# Optional: for better performance
+# django-debug-toolbar>=3.2.0  # For development debugging
