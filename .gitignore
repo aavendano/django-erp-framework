@@ -345,3 +345,4 @@ pip-selfcheck.json
 .ipython/
 
 project_files/*
+demo/db.sqlite3
